@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documeat</title>
+    <link rel="stylesheet" href="../css/tabla.css">
+</head>
+
+<body>
+    <div class="axd"><a href="index.html">volver</a></div>
+    <h1>TABLA DE EVENTOS</h1>
+    <table class="tablaxd">
+        <tr>
+            <th>Evento</th>
+            <th>Ejemplo Aplicacion</th>
+        </tr>
+
+        <tr>
+            <td>Clicker</td>
+            <td> <button id="boton">ola</button>
+                <script>
+                    (function () {
+
+                        var ej1 = function () {
+                            alert("ola:D")
+                            console.log("1. click: al clickear genera evento")
+                        };
+
+                        var boton = document.getElementById("boton");
+                        boton.addEventListener("click", ej1);
+                    }())
+                </script>
+            </td>
+        </tr>
+        <tr>
+            <td>mouseover</td>
+            <td>
+                <p id="pa">trae el mouse aqui c:</p>
+                <script>
+                        (function () {
+
+                            var ej2 = function () {
+                                alert("BOO :D")
+                                console.log("2. mouseover: al pasar el raton por encima genera evento")
+                            };
+
+                            var boton = document.getElementById("pa");
+                            boton.addEventListener("mouseover", ej2);
+                        }())
+                </script>
+            </td>
+        </tr>
+
+
+        <tr>
+            <td>doubleclick</td>
+            <td>
+                <button id="xd3">doble click pana</button>
+                <script>
+                        (function () {
+
+                            var ej3 = function () {
+                                alert("doble click, muy pro")
+                                console.log("3. doubleclick: al presionar boton dos veces genera evento")
+                            };
+
+                            var boton = document.getElementById("xd3");
+                            boton.addEventListener("dblclick", ej3);
+                        }())
+                </script>
+            </td>
+        </tr>
+        <td>change</td>
+        <td>
+            <select id="eleccion">
+                <option value="option1">Opción 1</option>
+                <option value="option2">Opción 2</option>
+                <option value="option3">Opción 3</option>
+            </select>
+
+            <script>
+                var ajoi = function () {
+                    console.log("4. cambia la seleccion")
+                };
+
+                var select = document.getElementById("eleccion");
+                select.addEventListener("change", ajoi);
+            </script>
+        </td>
+        </tr>
+
+
+        <td>focus</td>
+        <td>
+            <input id="eleccion1" type="text">
+
+            <script>
+                var focus = function () {
+                    console.log("5. cambia la seleccion")
+                };
+
+                var select = document.getElementById("eleccion1");
+                select.addEventListener("change", focus);
+            </script>
+        </td>
+        </tr>
+
+
+        <td>mouse down</td>
+        <td>
+            <select id="mySelect">
+                <option value="option1">Opción 1</option>
+                <option value="option2">Opción 2</option>
+                <option value="option3">Opción 3</option>
+            </select>
+
+            <script>
+                var mouse = function () {
+                    console.log("6. Se desencadena cuando el usuario presiona el botón del mouse mientras está sobre el menú desplegable.")
+                };
+                var select = document.getElementById("mySelect");
+                select.addEventListener("mousedown", mouse);
+            </script>
+
+        </td>
+        </tr>
+
+
+        <td>keyup</td>
+        <td>
+            <input id="escri" type="text">
+
+            <script>
+                var keyup = function () {
+                    console.log("7. se ejecuta al poner algun valor")
+                };
+
+                var keyxd = document.getElementById("escri");
+                keyxd.addEventListener("keyup", keyup);
+            </script>
+        </td>
+        </tr>
+
+
+        <td>input</td>
+        <td>
+            <input id="xd4" type="text">
+
+            <script>
+                var input = function () {
+                    console.log("8. Se desencadena cuando el valor del campo de entrada cambia. Esto incluye cuando el usuario ingresa texto, elimina o modifica el contenido del campo de entrada.")
+                };
+
+                var inputxd = document.getElementById("xd4");
+                inputxd.addEventListener("input", input);
+            </script>
+        </td>
+        </tr>
+
+
+        <td>keydown</td>
+        <td>
+            <input id="xd5" type="checkbox"> selecciona
+
+            <script>
+                var mousecenter = function () {
+                    console.log("9. Se desencadena cuando el usuario presiona una tecla del teclado mientras el checkbox tiene el foco.")
+                };
+
+                var keydownxd = document.getElementById("xd5");
+                keydownxd.addEventListener("keydown", input);
+            </script>
+        </td>
+        </tr>
+
+
+        <td>contextmenu</td>
+        <td>
+            <div id="myElement">Mueve el mouse aquí</div>
+
+            <script>
+                var element = document.getElementById("myElement");
+                element.addEventListener("mousemove", function (event) {
+                    // Acciones o funciones a ejecutar cuando se mueve el mouse sobre el elemento
+                    console.log("Posición del mouse: X=" + event.clientX + ", Y=" + event.clientY);
+                });
+            </script>
+
+        </td>
+        </tr>
+    </table>
+    <img id="img" src="../img/event.png" alt="eventos">
+    <div class="texto">
+        <h2>¿que son los eventos?</h2>
+        <p> Los eventos de JavaScript permiten la interacción entre las aplicaciones JavaScript y los usuarios. Cada vez
+            que se pulsa un botón, se produce un evento. Cada vez que se pulsa una tecla, también se produce un evento.
+            No obstante, para que se produzca un evento no es obligatorio que intervenga el usuario, ya que por ejemplo,
+            cada vez que se carga una página, también se produce un evento.</p>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,119 @@
+body {
+    background: url(../img/fondo_3.png);
+}
+
+h1 {
+    font-size: 80px;
+    position: relative;
+    left: 550px;
+    top: -20px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(106, 122, 122, 0.431);
+    width: 800px;
+    text-align: center;
+}
+
+.axd {
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 20px;
+    width: 60px;
+    align-items: center;
+}
+form {
+    background-color: rgba(183, 0, 255, 0.387);
+    width: 450px;
+    height: 450px;
+    border-radius: 15px;
+    border: solid rgba(0, 0, 0, 0.542);
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    left: 700px;
+}
+
+div{
+    margin: 10px;
+    font-size: 20px;
+}
+
+
+.success{
+    border: 2px solid lawngreen
+}
+
+.error{
+    border: 2px solid red;
+}
+.feedback{
+    max-width: 100%;
+    width: 100%;
+    background-color: darkgrey ;
+    padding: 5px;
+    color: black;
+    font-family: 18px;
+    visibility: hidden;
+    opacity: 0;
+    display: center;
+    width: 350px;
+    position: relative;
+    left: 70px;
+}
+
+.feedback2{
+    max-width: 100%;
+    width: 100%;
+    background-color: darkgrey ;
+    padding: 5px;
+    color: black;
+    font-family: 18px;
+    visibility: hidden;
+    opacity: 0;
+    display: center;
+}
+.feedback3{
+    max-width: 100%;
+    width: 100%;
+    background-color: darkgrey ;
+    padding: 5px;
+    color: black;
+    font-family: 18px;
+    visibility: hidden;
+    opacity: 0;
+    display: center;
+}
+.feedback4{
+    max-width: 100%;
+    width: 100%;
+    background-color: darkgrey ;
+    padding: 5px;
+    color: black;
+    font-family: 18px;
+    visibility: hidden;
+    opacity: 0;
+    display: center;
+}
+.feedback5{
+    max-width: 100%;
+    width: 100%;
+    background-color: darkgrey ;
+    padding: 5px;
+    color: black;
+    font-family: 18px;
+    visibility: hidden;
+    opacity: 0;
+    display: center;
+}
+.feedback6{
+    max-width: 100%;
+    width: 100%;
+    background-color: darkgrey ;
+    padding: 5px;
+    color: black;
+    font-family: 18px;
+    visibility: hidden;
+    opacity: 0;
+    display: center;
+}
+

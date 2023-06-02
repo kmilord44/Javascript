@@ -1,0 +1,84 @@
+
+body {
+    background: url(../img/fondo_3.png);
+    
+}
+
+.modal{
+    background-color: rgba(0, 0, 0, 0.859);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow: auto;
+    padding-top: 200px;
+    display: none;
+}
+
+
+#abrirmodal{
+    height: 100px;
+    width: 120px;
+    position: relative;
+    top: 100px;
+    left: 500px  ;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color:rgba(111, 124, 197, 0.615);
+    font-family: monospace;
+}
+.contenidomodal{
+background-color: white;
+width: 20%;
+height: 60%;
+margin: auto;
+position: relative;
+padding: 1rem;
+animation-name: animarmodal;
+animation-duration: 2s;
+border-radius: 5%;
+}
+
+
+img{
+height: 100px;
+width: 100px;
+position: relative;
+bottom: -60px;
+right: -140px;
+}
+
+
+
+h2{
+position: relative;
+top: 10px;
+left: 30%;
+font-size: 40px;
+}
+
+
+input{
+display: block;
+margin-top: 60px;
+position: relative;
+left: 90px;
+height: 50px;
+width: 200px;
+}
+
+.closewithx{
+position: relative;
+}
+
+.axd{
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 10px;
+	border-radius: 20px;
+    font-size: 20px;
+    width: 60px;
+    align-items: center;
+    border-radius: 10px;
+    border: solid rgba(71, 68, 177, 0.45);
+}

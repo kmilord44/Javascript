@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>formularios</title>
+    <link rel="stylesheet" href="../css/reto6.css" />
+  </head>
+
+  <header>
+    <div class="axd"><a href="index.html">volver</a></div>
+    <h1>FORMULARIO</h1>
+</header>
+  <body>
+
+    <form id="frmvalidacion">
+      <div class="boton">
+        <label for="retos js"> Tipo dc:</label>
+        <select name="retos js " id="retos js">
+          <option value="1">tipo documento</option>
+          <option value="2">Tarjeta de ID</option>
+          <option value="3">Cedula Ciudadana</option>
+          <option value="4">Cedula Extranjera</option>
+        </select>
+      </div>
+      <div class="datos">
+        <div id="documento">
+          <label>No.docuemnto</label>
+          <input type="text" name="docu" id="docu" class="" />
+          <div class="feedback"></div>
+        </div>
+
+        <div id="name">
+          <label>nombre</label>
+          <input type="text" name="nombre" id="nombre" class="" />
+          <div class="feedback2"></div>
+        </div>
+
+        <div id="apellido">
+          <label>Apellido</label>
+          <input type="text" name="apellido" id="apellido" class="" />
+          <div class="feedback3"></div>
+        </div>
+
+        <div id="fecha-nacimiento">
+          <label>fecha nacimiento</label>
+          <input type="date" name="fecha" id="fecha" />
+          <div class="feedback00"></div>
+        </div>
+
+        <div id="correo">
+          <label>Correo Electronico</label>
+          <input type="text" name="correoo" id="correoo" class="" />
+          <div class="feedback4"></div>
+        </div>
+
+        <div id="contrasena">
+          <label>Password</label>
+          <input type="password" name="password" id="password" />
+          <div class="feedback5"></div>
+        </div>
+
+        <div id="contrasena2">
+        <label>verifica password</label>
+        <input type="password" name="password2" id="password2" />
+        <div class="feedback6"></div>
+      </div>
+
+      <div id="terms">
+        <label>Terminos de uso</label>
+        <input type="checkbox" />
+      </div>
+
+      <button type="submit" id="submitButton">Enviar</button>
+    </form>
+  </body>
+  <script src="../js/reto6.js"></script>
+</html>

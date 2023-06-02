@@ -1,0 +1,456 @@
+body {
+    background: url(../img/fondo_3.png);
+}
+
+h1 {
+    font-size: 80px;
+    position: relative;
+    left: 550px;
+    top: -20px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(106, 122, 122, 0.431);
+    width: 800px;
+    text-align: center;
+}
+
+.fichitas {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+
+}
+
+/*divisiones de cada uno*/
+.card1 {
+    background-color: rgba(183, 0, 255, 0.387);
+    width: 250px;
+    height: 300px;
+    border-radius: 15px;
+    border: solid rgba(0, 0, 0, 0.542);
+}
+
+.card2 {
+    background-color: rgba(150, 203, 75, 0.278);
+    width: 250px;
+    height: 300px;
+    border-radius: 15px;
+    border: solid rgba(0, 0, 0, 0.542);
+}
+
+.card3 {
+    background-color: rgba(255, 0, 98, 0.387);
+    width: 250px;
+    height: 300px;
+    border-radius: 15px;
+    border: solid rgba(0, 0, 0, 0.542);
+}
+
+.card4 {
+    background-color: rgba(168, 25, 25, 0.378);
+    width: 250px;
+    height: 300px;
+    border-radius: 15px;
+    border: solid rgba(0, 0, 0, 0.542);
+}
+
+
+
+/*imagenes*/
+.circulo {
+    height: 120px;
+    margin: 10px;
+    margin-top: 35px;
+}
+
+.triangulo {
+    height: 150px;
+    margin: 10px;
+}
+
+.cuadrado {
+    height: 150px;
+    margin: 10px;
+}
+
+.rectangulo {
+    height: 150px;
+    margin: 10px;
+}
+
+button {
+    margin: 10px;
+    height: 30px;
+    width: 80px;
+}
+
+.axd {
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 20px;
+    width: 60px;
+    align-items: center;
+}
+
+
+
+/*modales circulo*/
+.modal {
+    background-color: rgba(0, 0, 0, 0.859);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow: auto;
+    padding-top: 200px;
+    display: none;
+}
+
+
+#abrirmodal {
+    height: 100px;
+    width: 120px;
+    position: relative;
+    top: 100px;
+    left: 500px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: rgba(111, 124, 197, 0.615);
+    font-family: monospace;
+}
+
+.contenidomodal {
+    background-color: white;
+    width: 20%;
+    height: 20%;
+    margin: auto;
+    position: relative;
+    padding: 1rem;
+    animation-name: animarmodal;
+    animation-duration: 2s;
+    border-radius: 5%;
+}
+
+.closewithx {
+    position: relative;
+}
+
+
+/*modales triangulos*/
+.modaltr {
+    background-color: rgba(0, 0, 0, 0.859);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow: auto;
+    padding-top: 200px;
+    display: none;
+}
+
+
+#abrirmodaltr {
+    height: 100px;
+    width: 120px;
+    position: relative;
+    top: 100px;
+    left: 500px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: rgba(111, 124, 197, 0.615);
+    font-family: monospace;
+}
+
+.contenidomodaltr {
+    background-color: white;
+    width: 20%;
+    height: 20%;
+    margin: auto;
+    position: relative;
+    padding: 1rem;
+    animation-name: animarmodal;
+    animation-duration: 2s;
+    border-radius: 5%;
+}
+
+.closewithx {
+    position: relative;
+}
+
+
+/*modales cuadrado*/
+.modalcu {
+    background-color: rgba(0, 0, 0, 0.859);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow: auto;
+    padding-top: 200px;
+    display: none;
+
+}
+
+
+#abrirmodalcu {
+    height: 100px;
+    width: 120px;
+    position: relative;
+    top: 100px;
+    left: 500px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: rgba(111, 124, 197, 0.615);
+    font-family: monospace;
+}
+
+.contenidomodalcu {
+    background-color: white;
+    width: 20%;
+    height: 20%;
+    margin: auto;
+    position: relative;
+    padding: 1rem;
+    animation-name: animarmodal;
+    animation-duration: 2s;
+    border-radius: 5%;
+}
+
+.closewithx {
+    position: relative;
+}
+
+/*modales cuadrado*/
+.modalre {
+    background-color: rgba(0, 0, 0, 0.859);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow: auto;
+    padding-top: 200px;
+    display: none;
+
+}
+
+
+#abrirmodalre {
+    height: 100px;
+    width: 120px;
+    position: relative;
+    top: 100px;
+    left: 500px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: rgba(111, 124, 197, 0.615);
+    font-family: monospace;
+}
+
+.contenidomodalre {
+    background-color: white;
+    width: 20%;
+    height: 20%;
+    margin: auto;
+    position: relative;
+    padding: 1rem;
+    animation-name: animarmodal;
+    animation-duration: 2s;
+    border-radius: 5%;
+}
+
+.closewithx {
+    position: relative;
+}
+
+
+
+
+/*modales area*/
+
+
+/*modal area circulo
+*/
+
+.modalcia {
+    background-color: rgba(0, 0, 0, 0.859);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow: auto;
+    padding-top: 200px;
+    display: none;
+
+}
+
+
+#abrirmodalcia {
+    height: 100px;
+    width: 120px;
+    position: relative;
+    top: 100px;
+    left: 500px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: rgba(111, 124, 197, 0.615);
+    font-family: monospace;
+}
+
+.contenidomodalcia {
+    background-color: white;
+    width: 20%;
+    height: 20%;
+    margin: auto;
+    position: relative;
+    padding: 1rem;
+    animation-name: animarmodal;
+    animation-duration: 2s;
+    border-radius: 5%;
+}
+
+.closewithx {
+    position: relative;
+}
+
+
+/*modal area triangulo
+*/
+
+.modalatr {
+    background-color: rgba(0, 0, 0, 0.859);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow: auto;
+    padding-top: 200px;
+    display: none;
+
+}
+
+
+#abrirmodalatr {
+    height: 100px;
+    width: 120px;
+    position: relative;
+    top: 100px;
+    left: 500px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: rgba(111, 124, 197, 0.615);
+    font-family: monospace;
+}
+
+.contenidomodalatr {
+    background-color: white;
+    width: 20%;
+    height: 20%;
+    margin: auto;
+    position: relative;
+    padding: 1rem;
+    animation-name: animarmodal;
+    animation-duration: 2s;
+    border-radius: 5%;
+}
+
+.closewithx {
+    position: relative;
+}
+
+
+/*modal area cuadrado
+*/
+
+.modalacu {
+    background-color: rgba(0, 0, 0, 0.859);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow: auto;
+    padding-top: 200px;
+    display: none;
+
+}
+
+
+#abrirmodalacu {
+    height: 100px;
+    width: 120px;
+    position: relative;
+    top: 100px;
+    left: 500px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: rgba(111, 124, 197, 0.615);
+    font-family: monospace;
+}
+
+.contenidomodalacu {
+    background-color: white;
+    width: 20%;
+    height: 20%;
+    margin: auto;
+    position: relative;
+    padding: 1rem;
+    animation-name: animarmodal;
+    animation-duration: 2s;
+    border-radius: 5%;
+}
+
+.closewithx {
+    position: relative;
+}
+
+
+
+/*modal area rectangulo
+*/
+
+.modalare {
+    background-color: rgba(0, 0, 0, 0.859);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow: auto;
+    padding-top: 200px;
+    display: none;
+}
+
+
+#abrirmodalare {
+    height: 100px;
+    width: 120px;
+    position: relative;
+    top: 100px;
+    left: 500px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: rgba(111, 124, 197, 0.615);
+    font-family: monospace;
+}
+
+.contenidomodalare {
+    background-color: white;
+    width: 20%;
+    height: 20%;
+    margin: auto;
+    position: relative;
+    padding: 1rem;
+    animation-name: animarmodal;
+    animation-duration: 2s;
+    border-radius: 5%;
+}
+
+.closewithx {
+    position: relative;
+}

@@ -1,0 +1,85 @@
+body{
+    background: url(../img/fondo_3.png);
+}
+
+
+.cuadrito{
+    background-color: transparent;
+    position: relative;
+    left: 700px;
+    top: 200px;
+    display: flex;
+    margin: 50px;
+    width: 350px;
+    display: block;
+    padding: 10px;
+    border: solid rgba(19, 16, 19, 0.45);
+}
+
+.opcion{
+height: 30px;
+font-size: 17px;
+display: flex;
+justify-content: space-around;
+position: relative;
+top: -5px;
+margin: 10px;
+}
+
+.opcion2{
+    height: 30px;
+    font-size: 17px;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: -5px;
+    margin: 10px;
+    }
+
+#xd{
+height: 30px;
+position: relative;
+left: 150px;
+
+}
+
+.axd{
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 10px;
+	border-radius: 20px;
+    font-size: 20px;
+    width: 60px;
+    align-items: center;
+    border-radius: 10px;
+    border: solid rgba(71, 68, 177, 0.45);
+}
+
+#words{
+    position: relative;
+    left: 230px;
+    height: 300px;
+    width: 400px;
+    top:-60px;
+    border-radius: 10px;
+    border: solid rgba(71, 68, 177, 0.45);
+}
+
+#words2{
+    position: relative;
+    left: 800px;
+    height: 300px;
+    top:-60px;
+    border-radius: 10px;
+    border: solid rgba(71, 68, 177, 0.45);
+}
+h1{
+    font-size: 80px;
+    position: relative;
+    left: 760px;
+    top: 160px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(106, 122, 122, 0.431);
+    width: 350px;
+    text-align: center;
+
+}

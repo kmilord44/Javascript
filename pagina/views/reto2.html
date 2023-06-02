@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>palabra</title>
+    <link rel="stylesheet" href="../css/reto2.css">
+</head>
+<body>
+    <div class="axd"><a href="index.html">volver</a></div>
+   <form class="xd">
+        <div class="opcion">
+            <label for="P">digite su temperatura</label>
+            <input type="text" id="p" name="p">
+        </div>
+
+        <label for="op">convertir de</label>
+        <select id="op"name="op">
+        <option value="0">convertir de grados </option>
+        <option value="1">FAHRENHEIT</option>
+        <option value="2">CELSIUS</option>
+        <option value="3">KELVIN</option>
+       </select>
+
+       <label for="oop">a</label>
+       <select id="oop"name="oop">
+       <option value="0"> a grados </option>
+       <option value="1">FAHRENHEIT</option>
+       <option value="2">CELSIUS</option>
+       <option value="3">KELVIN</option>
+      </select>
+       <button id="calcular(P)" onclick=calcular(event)>Grados</button>
+  </form>
+  <img id="img1" src="../img/tmp.jpg" alt="tm1">
+  <img id="img2" src="../img/temp2.jpg" alt="tm2">
+  <h1>CONVERTIDOR DE TEMPERATURAS</h1>
+
+    <script src="../js/reto2.js"></script>
+
+</body>
+</html>

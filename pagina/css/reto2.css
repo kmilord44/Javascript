@@ -1,0 +1,69 @@
+body{
+    background: url(../img/fondo_3.png);
+}
+.xd{
+    background-color:rgba(68, 63, 63, 0.166);
+    position: relative;
+    left: 700px;
+    top: 200px;
+    display: flex;
+    margin: 50px;
+    width: 350px;
+    display: block;
+    padding: 10px;
+    border-radius: 10px;
+    border: solid rgba(71, 68, 177, 0.45);
+}
+.opcion{
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    margin: 10px;
+
+}
+
+button{
+    height: 30px;
+    margin: 10px;
+    position: relative;
+    top: 10px;
+    left: 130px;
+}
+
+.axd{
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 10px;
+	border-radius: 20px;
+    font-size: 20px;
+    width: 60px;
+    align-items: center;
+}
+
+#img1{
+    position: relative;
+    left: 200px;
+    height: 300px;
+    top:-60px;
+    border-radius: 10px;
+    border: solid rgba(71, 68, 177, 0.45);
+
+}
+#img2{
+    position: relative;
+    left: 800px;
+    height: 300px;
+    width: 500px;
+    top: -60px;
+    border-radius: 10px;
+    border: solid rgba(71, 68, 177, 0.45);
+}
+h1{
+    font-size: 80px;
+    position: relative;
+    left: 550px;
+    top: -20px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(106, 122, 122, 0.431);
+    width: 800px;
+    text-align: center;
+}

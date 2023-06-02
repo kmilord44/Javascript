@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>palabra</title>
+    <link rel="stylesheet" href="../css/reto1.css">
+</head>
+<body>
+   
+    <div class="axd"><a href="index.html">volver</a></div>
+    <h1>WORDS</h1>
+   <form class="cuadrito">
+        <div class="opcion">
+            <label for="p">ingrese una palabra</label>
+            <input type="text" id="p" name="p">
+         
+        </div>
+
+        <div class="opcion2">
+        <label for="op">operacion</label>
+        <select id="op"name="op">
+        <option value="0">...</option>
+        <option value="1">longitud</option>
+        <option value="2">mayuscula</option>
+        <option value="3">minuscula</option>
+        <option value="4">caracteres</option>
+       </select>
+
+    </div>
+       <button id="xd" onclick=calcular(event)>Ejecutar</button>
+  </form>
+  <img id="words" src="../img/words.jpg" alt="">
+  <img id="words2" src="../img/words2.png" alt="">
+    <script src="../js/reto1.js"></script>
+
+</body>
+</html>

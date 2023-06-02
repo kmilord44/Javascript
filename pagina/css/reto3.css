@@ -1,0 +1,84 @@
+body {
+    background: url(../img/fondo_3.png);
+}
+
+form {
+
+    border-color: black;
+    background-color: rgba(245, 243, 243, 0.328);
+    position: relative;
+    left: 60px;
+    right: 8px;
+    display: flex;
+}
+
+.axd {
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 20px;
+    width: 60px;
+    align-items: center;
+    border-radius: 10px;
+    border: solid rgba(71, 68, 177, 0.45);
+}
+
+.cuadrito {
+    background-color: rgba(68, 63, 63, 0.166);
+    position: relative;
+    left: 700px;
+    top: -200px;
+    display: flex;
+    width: 350px;
+    height: 180px;
+    display:grid;
+    justify-content: center;
+    padding: 15px;
+    border: solid rgba(19, 16, 19, 0.45);
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+button{
+    width: 200px;
+    height: 70px;
+    font-size: 20px;
+    position: relative;
+    left: 790px;
+    top: -130px;
+    border-radius: 10px;
+    border: solid rgba(71, 68, 177, 0.45);
+}
+
+input{
+    margin: 11px;
+    width: 100px;
+}
+
+#triangulos{
+    position: relative;
+    left: 100px;
+    height: 300px;
+    top:100px;
+    border-radius: 10px;
+    border: solid rgba(71, 68, 177, 0.45);
+}
+#triangulos2{
+    position: relative;
+    left: 800px;
+    height: 300px;
+    top:100px;
+    border-radius: 10px;
+    border: solid rgba(71, 68, 177, 0.45);
+}
+
+h1{
+    font-size: 80px;
+    position: relative;
+    left: 550px;
+    top: -20px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(106, 122, 122, 0.431);
+    width: 800px;
+    text-align: center;
+}

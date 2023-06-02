@@ -1,0 +1,91 @@
+body {
+    background: url(../img/fondo_3.png);
+
+}
+
+.xd {
+    background-color: rgba(68, 63, 63, 0.166);
+    position: relative;
+    left: 700px;
+    top: -250px;
+    margin: 50px;
+    width: 350px;
+    height: 200px;
+    display: block;
+    padding: 10px;
+    border-radius: 10px;
+    border: solid rgba(71, 68, 177, 0.45);
+
+}
+
+#nombre {
+    width: 300px;
+    margin: 10px;
+    position: relative;
+    left: 18px;
+    height: 30px;
+}
+
+#apellido {
+    width: 300px;
+    margin: 10px;
+    position: relative;
+    left: 18px;
+    height: 30px;
+}
+
+#act {
+    width: 300px;
+    margin: 10px;
+    position: relative;
+    left: 18px;
+    height: 30px;
+}
+
+
+button {
+    height: 30px;
+    margin: 10px;
+    position: relative;
+    top: 10px;
+    left: 130px;
+
+}
+
+#img1{
+    position: relative;
+    left: 150px;
+    height: 300px;
+    width: 450px;
+    top:0px;
+    border-radius: 10px;
+    border: solid rgba(71, 68, 177, 0.45);
+
+}
+#img2{
+    position: relative;
+    left: 800px;
+    height: 300px;
+    width: 500px;
+    top: -10px;
+    border-radius: 10px;
+    border: solid rgba(71, 68, 177, 0.45);
+}
+h1{
+    font-size: 80px;
+    position: relative;
+    left: 550px;
+    top: -20px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(106, 122, 122, 0.431);
+    width: 800px;
+    text-align: center;
+}
+.axd{
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 10px;
+	border-radius: 20px;
+    font-size: 20px;
+    width: 60px;
+    align-items: center;
+}
